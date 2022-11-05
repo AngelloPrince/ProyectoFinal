@@ -1,0 +1,364 @@
+@media (min-width: 280px) and (max-width: 374px){
+// PAGINA DE DESCUENTOS
+    .pagina__tienda{
+        height: 100vh;
+        #main__dos{
+            height: 250vh;
+        }
+    }
+}   
+
+@media (min-width: 280px) and (max-width: 319px){
+// PAGINA INDEX
+    // navegador
+    #nav{
+        margin-left: 1em !important;
+        a{
+            font-size: 20px;
+        }  
+    }
+    // boton compra aqui
+    .btn{
+        font-size: 9px;
+    }
+// PAGINA TIENDA HOMBRE Y MUJER
+    .body__hombre{
+        height: 361vh !important;
+        .header__hombre{ 
+            height: 13vh !important;  
+        }
+        .main__hombre{
+            height: 328vh !important;
+            .aside__hombre{
+                height: 55vh !important;               
+            }
+            .article__hombre{
+                height: 250vh !important;                
+            }
+            .nav__hombre{
+                height: 28vh !important;
+            }
+        }
+        .footer__hombre{
+            height: 20vh;
+        }
+    }
+}
+
+@media (min-width: 280px) and (max-width: 425px){
+//  PAGINA INDEX  
+    body{
+        height: 100vh;
+        .main_principal{
+            height: 70vh !important;
+            margin-top: 0%;
+            div{
+                height: 35vh !important;     
+            }
+            aside{
+                height: 35vh !important;
+                #promocion{
+                    margin-right: 0em;
+                    margin-left: 1em;
+                    font-size: 20px;
+                }  
+            }
+        }
+        footer{
+            height: 17vh;
+            }
+    }
+}
+
+@media (min-width: 280px) and (max-width: 1024px){ 
+}
+
+@media (min-width: 320px) and (max-width: 425px){
+// PAGINA DE DESCUENTOS
+    .pagina__tienda{
+        height: 100vh;
+        #main__dos{
+            height: 200vh;
+        }
+    }
+// NAVEGADOR GENERAL
+    #nav{
+        margin-left: 5em !important;
+    }
+// TEXTO DEL INDEX
+    #promocion{
+        font-size: 15px;
+        margin-left: 10px;
+        margin-right: 1em; 
+    }
+//PAGINA ABOUT
+    .body-about{
+        height: 133vh;
+        .main-about{
+            height: 150vh;
+            #aside-about{
+            }
+            #article-about{
+                font-size: 20px;
+                display: contents;
+            }
+        }
+        .footer-about{
+            height: 15vh;
+        }
+    }
+// PAGINA CONTACTO
+    .body__contacto{
+        height: 120vh;
+        .main__contacto{
+            height: 100vh;
+            .div_contacto{
+                height: 60vh;
+            }
+            #aside_contacto{
+                height: 40vh;
+            }
+        }   
+        .footer__contacto{
+            height: 13vh;
+        }
+    }
+// PAGINA TIENDA HOMBRE Y MUJER
+    .body__hombre{
+        height: 308vh !important;
+    
+        .header__hombre{ 
+            height: 13vh !important;  
+        }
+        .main__hombre{
+            height: 300vh !important;
+            .aside__hombre{
+                height: 55vh !important;               
+            }
+            .article__hombre{
+                height: 220vh !important;                
+            }
+        }
+        .footer__hombre{
+            height: 20vh !important;
+        }
+    }
+}
+
+@media (min-width: 375px) and (max-width: 575px){
+// PROMOCION DEL INDEX
+    #promocion{
+        font-size: 15px;
+        margin-left: 3em !important;  
+    } 
+// PAGINA TIENDA HOMBRE Y MUJER
+    .body__hombre{
+        height: 308vh !important;
+        .header__hombre{ 
+            height: 13vh !important;  
+        }
+        .main__hombre{
+            height: 300vh !important;
+            .aside__hombre{
+                height: 55vh !important;               
+            }
+            .article__hombre{
+                height: 220vh !important;                
+            }    
+        }
+        .footer__hombre{
+            height: 20vh;
+        }
+    }
+}
+@media (min-width: 425px) and (max-width: 576px){
+// PAGINA INDEX
+    .main_principal{
+        margin-top: 0%;
+        aside{
+            display: flex;
+            #promocion{
+                font-size: 20px;
+                margin-right: 0em;
+                margin-left: 4em !important;
+            }  
+        } 
+    }
+// PAGINA TIENDA HOMBRE Y MUJER
+    .body__hombre{
+        .header__hombre{ 
+            height: 13vh !important;  
+        }
+        .main__hombre{
+            height: 305vh !important;
+            .aside__hombre{
+                height: 55vh !important;               
+            }
+            .article__hombre{
+                height: 220vh !important;                
+            }
+        }
+        .footer__hombre{
+            height: 20vh;
+        }
+    }
+}
+
+@media (min-width: 540px) and (max-width: 575px){
+// PAGINA INDEX
+    main nav img{
+        height: 40vh !important;
+        width: 50% !important;
+        margin-left: 20vh;
+    }
+    #promocion{
+        margin-left: 10em;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px){
+// PAGINA INDEX
+    .main_principal{
+        margin-top: 0%;
+        aside{
+            #promocion{
+                width: 100%;
+                align-items: center;
+                margin-bottom: 30px;
+            }  
+        }   
+    }
+    #nav{
+        margin-left: 25em;
+    }
+    main nav img{
+        height: 40vh !important;
+        width: 50% !important;
+        margin-left: 20vh;
+    }  
+}
+
+@media (min-width: 768px){
+// LOGO DEL MENU EN GENERAL
+    #logo_menu{
+        height: 12vh;
+        margin-left: 10vh;
+    }
+// PAGINA DE LOS DESCUENTOS
+    .pagina__tienda{
+        height: 100vh;
+        #main__dos{
+            height: 150vh;
+        }
+    }
+// PAGINA TIENDA HOMBRE Y MUJER
+    .body__hombre{
+        height: 218vh !important;
+        .header__hombre{ 
+            height: 13vh !important;  
+        }
+        .main__hombre{
+            height: 205vh !important;
+            .aside__hombre{
+                height: 55vh !important;                
+            }
+            .article__hombre{
+                height: 150vh !important;                
+            }     
+        .footer__hombre{
+            height: 20vh;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px){
+// NAV EN GENERAL
+    #nav{
+        margin-left: 2em !important;
+    }   
+}
+
+@media (min-width: 1024px){  
+// TEXTO DEL INDEX
+    #promocion{
+        margin-right: 0em;
+        margin-left: 1.5em;
+        }  
+// PAGINA TIENDA HOMBRE Y MUJER
+    .body__hombre{
+        height: 218vh !important;
+        .header__hombre{ 
+            height: 13vh !important;  
+        }
+        .main__hombre{
+            height: 205vh !important;
+            .aside__hombre{
+                height: 55vh !important;               
+            }
+            .article__hombre{
+                height: 150vh !important;                
+            }
+        }
+        .footer__hombre{
+            height: 20vh;
+        }
+    }
+}
+
+@media (min-width: 1440px){  
+// TEXTO DEL INDEX
+    #promocion{
+        margin-right: 0em;
+        margin-left: 5em;
+    }
+// PAGINA TIENDA HOMBRE Y MUJER
+    .body__hombre{
+        height: 213vh !important;
+        .header__hombre{ 
+            height: 13vh !important;  
+        }
+        .main__hombre{
+            height: 200vh !important;
+            .aside__hombre{
+                height: 100vh !important;               
+            }
+            .article__hombre{
+                height: 120vh !important;                
+            }
+        }
+        .footer__hombre{
+            height: 10vh;
+        }
+    }
+}
+
+@media (min-width: 2560px){
+// PAGINA INDEX
+    // imagen principal
+    main nav img{
+        height: 80vh;
+        width: 100%;
+    }
+    // texto de promociones
+    #promocion{
+        font-size: 50px
+    }
+    // navegador menu    
+    #nav{
+        margin-left: 25em !important;
+        font-family: 'Comforter Brush', cursive;
+        a{
+            font-size: 60px;
+            margin-left: 2em;        
+        }
+    }
+// PAGINA DE DESCUENTOS
+    .pagina__tienda{
+        height: 100vh;
+        #main__dos{
+            height: 60vh;
+        }
+    }
+}
+

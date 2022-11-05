@@ -1,0 +1,50 @@
+// FOOTER EN GENERAL
+footer{
+    height: 10vh;
+    background-color: #45484b;
+    display: flex;
+    font-size: 12px;
+    font-style: oblique;
+    color: aliceblue;
+    text-align: center;
+    div{
+        
+        width: 50%;
+        margin-top: 20px;
+    }
+    nav{
+        width: 30%;
+        margin-top: 20px;
+        
+    }
+    section{
+        list-style-type: none;
+        display: flex;
+        width: 20%;
+        display: list-item;
+        h5{
+            font-size: 15px;
+        }
+        a{
+            img{
+              
+                height: 40px;
+                width: 40px;
+                margin-right: 5px;
+            }
+           
+        }
+    }
+}
+    // apartado de wsp
+.wsp{
+    text-decoration: none;
+    color: aliceblue;
+}
+.wsp:hover{
+    color: rgb(133, 247, 171);
+}
+// FOOTER DE TIENDA HOMBRE Y MUJER
+.footer__hombre{
+    height: 20vh;
+}

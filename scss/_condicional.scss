@@ -1,0 +1,13 @@
+// COLORES DE FUENTES
+$animal:tigre;
+p{
+    @if $animal==tigre {
+        color: black;
+    }
+    @else if $animal==sapo{
+        color: white;
+    }
+    @else{
+        color: firebrick;
+    }
+}

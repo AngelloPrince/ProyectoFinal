@@ -1,0 +1,39 @@
+// HEADER EN GENERAL
+header{
+    height: 13vh;
+    font-size: 1rem;
+    font-style: oblique;   
+}
+// NAVEGADOR Y MENU
+    // menu
+#nav{
+    margin-left: 25em !important;
+    font-family: 'Comforter Brush', cursive;
+    a{
+        font-size: 30px;
+        margin-left: 2em;         
+    }
+    li{
+        ul{
+            li{
+                a{
+                    margin-left: 0%;  
+                }
+                a:hover:active{
+                    background-color: #4a362f;
+                }
+            }
+        }
+    }
+}
+    // logo
+#logo_menu{
+    height: 12vh;  
+}
+
+
+
+   
+  
+    
+
