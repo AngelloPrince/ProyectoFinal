@@ -1,8 +1,17 @@
 @charset "UTF-8";
 header {
-  height: 13vh;
-  font-size: 1rem;
   font-style: oblique;
+}
+header div div {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+header div div a {
+  font-family: "Comforter Brush", cursive;
+  text-align: center;
+  font-size: 100%;
+  margin-left: 10%;
 }
 
 #nav {
@@ -18,10 +27,6 @@ header {
 }
 #nav li ul li a:hover:active {
   background-color: #4a362f;
-}
-
-#logo_menu {
-  height: 12vh;
 }
 
 main {
@@ -54,9 +59,11 @@ main .tamaños_main {
 }
 main .tamaños_main img {
   width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 main aside {
-  width: 50%;
   background-color: #f8f8ec;
   -ms-flex-preferred-size: 10em;
       flex-basis: 10em;
@@ -112,8 +119,8 @@ main aside {
 }
 
 .main__contacto {
-  width: 100vw;
-  height: 80vh;
+  width: 100%;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -196,42 +203,6 @@ iframe {
   height: 30vh;
 }
 
-.body__hombre {
-  height: 150vh !important;
-  width: 100%;
-}
-.body__hombre .main__hombre {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 100% !important;
-}
-.body__hombre .main__hombre .aside__hombre {
-  background-image: url(../assets/images/hombre/matheus-ferrero-TkrRvwxjb_8-unsplash.jpg);
-  background-size: cover;
-  height: 40vh !important;
-  width: 100% !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.body__hombre .main__hombre .aside__mujer {
-  background-image: url(../assets/images/mujer/pexels-koolshooters-7324933.jpg);
-  background-size: cover;
-  width: 100% !important;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.body__hombre .main__hombre .article__hombre {
-  background-color: #f8f8ec;
-  width: 100%;
-}
-
 .main-about {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -243,7 +214,6 @@ iframe {
           justify-content: center;
 }
 .main-about #aside-about {
-  height: 80vh;
   background-image: url(../assets/images/about/annie-spratt-hCb3lIB8L8E-unsplash.jpg);
   -ms-flex-preferred-size: 10em;
       flex-basis: 10em;
@@ -261,7 +231,6 @@ iframe {
   background-size: cover;
 }
 .main-about #article-about {
-  height: 100%;
   background-color: #f8f8ec;
   -ms-flex-preferred-size: 10em;
       flex-basis: 10em;
@@ -283,11 +252,12 @@ iframe {
           flex-direction: column;
 }
 .main-about #article-about h1 {
-  margin-top: 50px;
+  margin-top: 10%;
 }
 .main-about #article-about p {
   padding: 2rem;
   margin-top: 4vh;
+  margin: 10%;
 }
 
 p {
@@ -295,30 +265,37 @@ p {
 }
 
 footer {
-  height: 10vh;
+  height: 100%;
   background-color: #45484b;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  font-size: 12px;
+  font-size: 100%;
   font-style: oblique;
-  color: aliceblue;
   text-align: center;
 }
 footer div {
   width: 50%;
   margin-top: 20px;
 }
+footer div p {
+  color: aliceblue;
+}
+footer div p a {
+  color: #FA3D00;
+  text-decoration: none;
+}
 footer nav {
   width: 30%;
   margin-top: 20px;
 }
 footer section {
+  color: aliceblue;
   list-style-type: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 20%;
+  width: 50%;
   display: list-item;
 }
 footer section h5 {
@@ -327,42 +304,19 @@ footer section h5 {
 footer section a img {
   height: 40px;
   width: 40px;
-  margin-right: 5px;
-}
-
-.wsp {
-  text-decoration: none;
-  color: aliceblue;
-}
-
-.wsp:hover {
-  color: rgb(133, 247, 171);
 }
 
 .footer__hombre {
   height: 20vh;
 }
 
-body {
-  height: 100vh;
-  background-color: #f8f8ec;
+.footer-text a:hover {
+  color: #FA3D00;
 }
 
-.pagina__tienda {
-  height: 150vh;
-}
-
-.banner {
-  height: 50vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100vh;
-  display: contents;
-}
-
-.body-about {
-  height: 150vh;
+* {
+  padding: 0%;
+  margin: 0%;
 }
 
 iframe {
@@ -387,11 +341,9 @@ iframe {
   #nav a {
     font-size: 20px;
   }
-
   .btn {
     font-size: 9px;
   }
-
   .body__hombre {
     height: 361vh !important;
   }
@@ -444,17 +396,14 @@ iframe {
   .pagina__tienda #main__dos {
     height: 200vh;
   }
-
   #nav {
     margin-left: 5em !important;
   }
-
   #promocion {
     font-size: 15px;
     margin-left: 10px;
     margin-right: 1em;
   }
-
   .body-about {
     height: 133vh;
   }
@@ -468,7 +417,6 @@ iframe {
   .body-about .footer-about {
     height: 15vh;
   }
-
   .body__contacto {
     height: 120vh;
   }
@@ -484,7 +432,6 @@ iframe {
   .body__contacto .footer__contacto {
     height: 13vh;
   }
-
   .body__hombre {
     height: 308vh !important;
   }
@@ -509,7 +456,6 @@ iframe {
     font-size: 15px;
     margin-left: 3em !important;
   }
-
   .body__hombre {
     height: 308vh !important;
   }
@@ -543,7 +489,6 @@ iframe {
     margin-right: 0em;
     margin-left: 4em !important;
   }
-
   .body__hombre .header__hombre {
     height: 13vh !important;
   }
@@ -566,7 +511,6 @@ iframe {
     width: 50% !important;
     margin-left: 20vh;
   }
-
   #promocion {
     margin-left: 10em;
   }
@@ -582,11 +526,9 @@ iframe {
             align-items: center;
     margin-bottom: 30px;
   }
-
   #nav {
     margin-left: 25em;
   }
-
   main nav img {
     height: 40vh !important;
     width: 50% !important;
@@ -598,14 +540,12 @@ iframe {
     height: 12vh;
     margin-left: 10vh;
   }
-
   .pagina__tienda {
     height: 100vh;
   }
   .pagina__tienda #main__dos {
     height: 150vh;
   }
-
   .body__hombre {
     height: 218vh !important;
   }
@@ -635,7 +575,6 @@ iframe {
     margin-right: 0em;
     margin-left: 1.5em;
   }
-
   .body__hombre {
     height: 218vh !important;
   }
@@ -660,7 +599,6 @@ iframe {
     margin-right: 0em;
     margin-left: 5em;
   }
-
   .body__hombre {
     height: 213vh !important;
   }
@@ -685,11 +623,9 @@ iframe {
     height: 80vh;
     width: 100%;
   }
-
   #promocion {
     font-size: 50px;
   }
-
   #nav {
     margin-left: 25em !important;
     font-family: "Comforter Brush", cursive;
@@ -698,7 +634,6 @@ iframe {
     font-size: 60px;
     margin-left: 2em;
   }
-
   .pagina__tienda {
     height: 100vh;
   }

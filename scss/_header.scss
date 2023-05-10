@@ -1,8 +1,17 @@
 // HEADER EN GENERAL
 header{
-    height: 13vh;
-    font-size: 1rem;
     font-style: oblique;   
+    div{
+        div{
+            justify-content: center;
+            a{
+                font-family: 'Comforter Brush', cursive;
+                text-align: center;
+                font-size: 100%;
+                margin-left: 10%;
+            }
+        }
+    }
 }
 // NAVEGADOR Y MENU
     // menu
@@ -26,10 +35,7 @@ header{
         }
     }
 }
-    // logo
-#logo_menu{
-    height: 12vh;  
-}
+
 
 
 
